@@ -169,7 +169,7 @@ class DateFinder(object):
                     if len(digits) == 3:  # 12-05-2015
                         complete = True
                     elif (len(months) == 1) and (
-                        len(digits) == 2
+                        len(digits) == 1
                     ):  # 19 February 2013 year 09:10
                         complete = True
 
